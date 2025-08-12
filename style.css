@@ -85,7 +85,7 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 4px solid rgb(0, 83, 128);
     border-radius: 16px;
 }
 
