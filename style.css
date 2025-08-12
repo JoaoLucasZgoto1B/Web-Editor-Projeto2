@@ -68,7 +68,7 @@ p {
     display: flex;
     overflow-x: auto;
     gap: 10px;
-   
+    border-radius: 16px;
 }
 
 .categoria {
@@ -80,7 +80,7 @@ p {
 .categoria-videos img {
     opacity: 0.5;
     height: 200px;
-   
+    border-radius: 16px;
 }
 
 .categoria-videos img:hover {
@@ -108,7 +108,4 @@ p {
 .categoria2 h2 {
     color: rgb(58, 204, 114);
     font-size: 25px;
-}
-img {
-    height: 200px;
 }
