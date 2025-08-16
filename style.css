@@ -35,7 +35,7 @@ p {
 
 .categoria-videos {
     display: flex;
-    overflow-x: auto;
+    overflow-y: auto;
     gap: 10px;
 }
 
@@ -58,6 +58,12 @@ p {
 .categoria h2 {
     color: rgb(42, 122, 228);
 }
+.categoria7-imagens {
+  display: flex;
+    overflow-y: auto;
+    gap: 10px;
+}
 .categoria7-imagens img {
-height: 200px; ;
+height: 200px; 
+
 }
