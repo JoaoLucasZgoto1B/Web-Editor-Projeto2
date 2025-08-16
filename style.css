@@ -8,13 +8,15 @@ body {
 
 header {
     border-bottom: solid 2px rgb(0, 23, 31);
-    padding: 20px;
-    font-size: 32px;
+    padding: 30px;
+    font-size: 35;
     color: rgb( 19, 33, 70);
     background: rgb( 189 211 118);
 }
 
-.chamada {
+
+
+.vídeo {
     background: rgb( 110, 156, 67 );
     padding-bottom: 80px;
     padding-top: 80px;
@@ -22,7 +24,7 @@ header {
     justify-content: center;
 }
 
-.chamada-texto {
+.vídeo-texto {
     margin-right: 5%;
 }
 
