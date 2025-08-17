@@ -18,7 +18,10 @@ header {
     align-items: center;
     gap: 15px;
 }
-
+.logo {
+    height: 50px; 
+    width: auto;
+}
 
 .vídeo {
     background: rgb( 110, 156, 67 );
