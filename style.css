@@ -1,5 +1,5 @@
 body {
-    color: white;
+    
     background: rgb(243, 253, 226);
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
@@ -33,6 +33,7 @@ header {
     padding-top: 80px;
     display: flex;
     justify-content: center;
+        border-bottom: solid 4px rgb(113, 106, 70);
 }
 
 .vídeo-texto {
@@ -67,7 +68,7 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid rgb( 113, 106, 70 );
 }
 
 .categoria h2 {
