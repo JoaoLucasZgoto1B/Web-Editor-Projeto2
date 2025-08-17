@@ -1,8 +1,8 @@
 body {
-    
+
     background: rgb(243, 253, 226);
     margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Mountains of Christmas", serif;
     margin-bottom: 100px;
 }
 
@@ -10,31 +10,35 @@ header {
     border-bottom: solid 2px rgb(0, 23, 31);
     padding: 30px;
     font-size: 35px;
-    color: rgb( 19, 33, 70);
-    background: rgb( 189 211 118);
-      align-items: center;
-     font-size: 25px;
+    color: rgb(19, 33, 70);
+    background: rgb(189 211 118);
+    align-items: center;
+    font-size: 25px;
 
 }
+
 .começo-logo {
-   display: flex;
+    display: flex;
     align-items: center;
     gap: 15px;
 }
+
 .logoSite {
-    height: 91px; 
+    height: 91px;
     width: auto;
 }
-.começo-logo h1{
-  font-family: Arial, Helvetica, sans-serif;
+
+.começo-logo h1 {
+    font-family: "Mountains of Christmas", serif;
 }
+
 .vídeo {
-    background: rgb( 110, 156, 67 );
+    background: rgb(110, 156, 67);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-        border-bottom: solid 4px rgb(113, 106, 70);
+    border-bottom: solid 4px rgb(113, 106, 70);
 }
 
 .vídeo-texto {
@@ -42,6 +46,7 @@ header {
 }
 
 h1 {
+    font-family: "Mountains of Christmas", serif;
     font-size: 40px;
     color: rgb(0, 126, 167);
 }
@@ -69,18 +74,20 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid rgb( 113, 106, 70 );
+    border: 3px solid rgb(113, 106, 70);
 }
 
 .categoria h2 {
     color: rgb(42, 122, 228);
 }
+
 .categoria7-imagens {
-  display: flex;
+    display: flex;
     overflow-y: auto;
     gap: 10px;
 }
+
 .categoria7-imagens img {
-height: 200px; 
+    height: 200px;
 
 }
