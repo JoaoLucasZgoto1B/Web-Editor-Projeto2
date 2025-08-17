@@ -13,7 +13,11 @@ header {
     color: rgb( 19, 33, 70);
     background: rgb( 189 211 118);
 }
-
+.começo-logo img {
+  display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
 
 .vídeo {
