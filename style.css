@@ -13,9 +13,10 @@ header {
     color: rgb( 19, 33, 70);
     background: rgb( 189 211 118);
       align-items: center;
+     
 }
 .começo-logo {
-  display: flex;
+   display: flex;
     align-items: center;
     gap: 15px;
 }
