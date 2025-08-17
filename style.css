@@ -9,7 +9,7 @@ body {
 header {
     border-bottom: solid 2px rgb(0, 23, 31);
     padding: 30px;
-    font-size: 35;
+    font-size: 35px;
     color: rgb( 19, 33, 70);
     background: rgb( 189 211 118);
       align-items: center;
@@ -23,7 +23,9 @@ header {
     height: 50px; 
     width: auto;
 }
+.começo-logo h1{
 
+}
 .vídeo {
     background: rgb( 110, 156, 67 );
     padding-bottom: 80px;
