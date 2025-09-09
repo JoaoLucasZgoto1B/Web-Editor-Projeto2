@@ -94,3 +94,29 @@ p {
 .spoyler{
     color: red;
 }
+ .container-flex {
+            margin: 30px; 
+            display: flex; /* alinha os dois retangulos */
+            gap: 20px; 
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .retangulo {
+          
+            flex: 1;
+
+            background-color: #007BFF; 
+            color: white; 
+            padding: 20px; 
+            border-radius: 5px; 
+            min-height: 150px; /* Uma altura mínima para ficarem visíveis */
+            
+            /* Centraliza o texto dentro do retângulo (bônus com flexbox) */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2em;
+        }
