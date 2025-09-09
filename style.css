@@ -1,0 +1,122 @@
+body {
+
+    background: rgb(243, 253, 226);
+    margin: 0px;
+     font-family: "Comic Relief", system-ui;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 23, 31);
+    padding: 30px;
+    font-size: 35px;
+    color: rgb(19, 33, 70);
+    background: rgb(189 211 118);
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.começo-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logoSite {
+    height: 91px;
+    width: auto;
+}
+
+.começo-logo h1 {
+    font-family: "Comic Relief", system-ui;
+}
+
+.vídeo {
+    background: rgb(110, 156, 67);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 4px rgb(113, 106, 70);
+}
+
+.vídeo-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-family: "Comic Relief", system-ui;
+    font-size: 40px;
+    color: rgb(62 ,19 ,0);
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-y: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(113, 106, 70);
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
+
+.categoria7-imagens {
+    display: flex;
+    overflow-y: auto;
+    gap: 10px;
+}
+
+.categoria7-imagens img {
+    height: 200px;
+
+}
+.spoyler{
+    color: red;
+}
+ .container-flex {
+            margin: 30px; 
+            display: flex; /* alinha os dois retangulos */
+            gap: 20px; 
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .retangulo {
+          
+            flex: 1;
+
+            background-color: #007BFF; 
+            color: white; 
+            padding: 20px; 
+            border-radius: 5px; 
+            min-height: 150px; /* Uma altura mínima para ficarem visíveis */
+            
+            /* Centraliza o texto dentro do retângulo (bônus com flexbox) */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2em;
+        }
